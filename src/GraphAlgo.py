@@ -3,7 +3,7 @@ from src.DiGraph import DiGraph
 
 
 class GraphAlgo(GraphAlgoInterface):
-    graph=DiGraph();
+
     def __init__(self,graph):
         self.graph=graph
 
