@@ -30,6 +30,7 @@ def check0():
     """
     g = DiGraph()  # creates an empty directed graph
     for n in range(4):
+        loc = (1, 2, 3)
         g.add_node(n)
     g.add_edge(0, 1, 1)
     g.add_edge(1, 0, 1.1)
@@ -81,6 +82,7 @@ def check2():
     print(dist, path)
     print(g_algo.TSP([1, 2, 3]))
     g_algo.plot_graph()
+    print(g_algo.get_graph().e_size())
 
 
 def check3():
